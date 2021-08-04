@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_section_modules",
+  "info": {
+    "name": "sectionModules",
+    "icon": "book-open",
+    "description": ""
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "courseModules": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.course-modules",
+      "required": true,
+      "min": 2
+    }
+  }
+}

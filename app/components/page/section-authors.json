@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_page_section_authors",
+  "info": {
+    "name": "sectionAuthors",
+    "icon": "people-carry"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true,
+      "default": "Quem somos nós?"
+    },
+    "author": {
+      "type": "component",
+      "repeatable": true,
+      "component": "page.author",
+      "required": true
+    }
+  }
+}
