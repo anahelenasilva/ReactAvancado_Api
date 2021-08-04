@@ -66,6 +66,11 @@
       "type": "component",
       "repeatable": false,
       "component": "page.section-reviews"
+    },
+    "sectionFAQ": {
+      "type": "component",
+      "repeatable": false,
+      "component": "page.section-faq"
     }
   }
 }
