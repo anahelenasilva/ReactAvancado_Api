@@ -2,18 +2,18 @@
   "collectionName": "components_page_section_modules",
   "info": {
     "name": "sectionModules",
-    "icon": "book-open",
-    "description": ""
+    "icon": "atlas"
   },
   "options": {},
   "attributes": {
     "title": {
-      "type": "string"
+      "type": "string",
+      "required": true
     },
-    "courseModules": {
+    "modules": {
       "type": "component",
       "repeatable": true,
-      "component": "page.course-modules",
+      "component": "page.modules",
       "required": true,
       "min": 2
     }

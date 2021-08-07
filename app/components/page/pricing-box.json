@@ -1,24 +1,23 @@
 {
-  "collectionName": "components_page_princing_boxes",
+  "collectionName": "components_page_pricing_boxes",
   "info": {
-    "name": "princingBox",
+    "name": "pricingBox",
     "icon": "dollar-sign"
   },
   "options": {},
   "attributes": {
     "totalPrice": {
-      "type": "integer"
+      "type": "integer",
+      "required": true,
+      "default": 415
     },
     "numberInstallments": {
       "type": "integer",
-      "required": true,
-      "default": 6,
-      "max": 12
+      "required": true
     },
     "priceInstallment": {
       "type": "integer",
-      "required": true,
-      "default": 48
+      "required": true
     },
     "benefits": {
       "type": "richtext",

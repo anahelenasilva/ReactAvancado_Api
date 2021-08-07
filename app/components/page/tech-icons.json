@@ -2,7 +2,7 @@
   "collectionName": "components_page_tech_icons",
   "info": {
     "name": "techIcons",
-    "icon": "code"
+    "icon": "tools"
   },
   "options": {},
   "attributes": {
@@ -13,10 +13,9 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true,
-      "pluginOptions": {}
+      "required": true
     },
-    "name": {
+    "title": {
       "type": "string",
       "required": true
     }

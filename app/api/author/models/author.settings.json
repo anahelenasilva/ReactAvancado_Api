@@ -2,15 +2,12 @@
   "kind": "collectionType",
   "collectionName": "authors",
   "info": {
-    "name": "authors",
-    "description": ""
+    "name": "author"
   },
   "options": {
     "increments": true,
-    "timestamps": true,
-    "draftAndPublish": true
+    "timestamps": true
   },
-  "pluginOptions": {},
   "attributes": {
     "photo": {
       "model": "file",
@@ -19,23 +16,21 @@
         "images"
       ],
       "plugin": "upload",
-      "required": true,
-      "pluginOptions": {}
+      "required": true
     },
     "name": {
       "type": "string",
-      "required": true,
-      "default": "Joao da Silva"
+      "required": true
     },
     "role": {
       "type": "string",
-      "required": true,
-      "default": "Instrutor"
+      "required": true
     },
     "socialLinks": {
       "type": "component",
       "repeatable": true,
-      "component": "page.social-links"
+      "component": "page.social-links",
+      "required": false
     },
     "description": {
       "type": "text",

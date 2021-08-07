@@ -10,7 +10,7 @@
       "type": "string",
       "required": true
     },
-    "review": {
+    "text": {
       "type": "text",
       "required": true
     },
@@ -21,8 +21,7 @@
         "images"
       ],
       "plugin": "upload",
-      "required": false,
-      "pluginOptions": {}
+      "required": false
     }
   }
 }

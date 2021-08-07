@@ -2,14 +2,13 @@
   "collectionName": "components_page_section_concepts",
   "info": {
     "name": "sectionConcepts",
-    "icon": "book-reader"
+    "icon": "align-justify"
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string",
-      "required": true,
-      "default": "Conceitos que você irá aprender"
+      "required": true
     },
     "concepts": {
       "type": "component",

@@ -2,7 +2,7 @@
   "collectionName": "components_page_section_agenda",
   "info": {
     "name": "sectionAgenda",
-    "icon": "address-book"
+    "icon": "calendar-alt"
   },
   "options": {},
   "attributes": {

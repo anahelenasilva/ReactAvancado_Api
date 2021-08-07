@@ -2,16 +2,13 @@
   "collectionName": "components_page_section_teches",
   "info": {
     "name": "sectionTech",
-    "icon": "laptop-code",
-    "description": ""
+    "icon": "toolbox"
   },
   "options": {},
   "attributes": {
     "title": {
       "type": "string",
-      "required": true,
-      "default": "Tecnologias utilizadas",
-      "maxLength": 30
+      "required": true
     },
     "techIcons": {
       "type": "component",
